@@ -113,3 +113,22 @@
 :-ms-input-placeholder{
   color: #fff;
 }
+
+@media (max-width: 767px) {
+  .mobile-black {
+    background: linear-gradient(to right, #000000, #000000);
+    border:none;
+    color: white;
+  }
+  .w-251{
+    width:50%;
+  }
+}
+
+.negative-margin{
+  margin-bottom: -50px;
+}
+
+.mt-10{
+  margin-top: 10rem;
+}
