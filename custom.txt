@@ -1,0 +1,25 @@
+.progress-bar-wrap {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #18d26e;
+  }
+
+  .progress .skill{
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+    padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  color: #fff;
+  float: right;
+  font-style: normal;
+  }

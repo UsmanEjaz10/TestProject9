@@ -15,8 +15,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <title>Test Project 9</title>
 
@@ -25,13 +25,17 @@
       .height-7{
         height: 7px;
       }
+      
+    .w-15{
+      width: 15%;
+    }
     </style>
 </head>
 <body>
     
   
-  <div id="container" class="gd-bg">
-    <section class="gradient-bg">
+  <div id="container" class="bg-white pb-5">
+    <section class="gradient-bg mb-5">
     <!----------------------------------Navbar------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand text-white ml-5" href="#">Meet Me</a>
@@ -49,19 +53,19 @@
               <a class="nav-link text-white mr-2" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white mr-2">Services</a>
+              <a class="nav-link text-white mr-2" href="#">Services</a>
             </li>
             
             <li class="nav-item">
-                <a class="nav-link text-white mr-2">Pages</a>
+                <a class="nav-link text-white mr-2" href="#">Pages</a>
               </li>
               
             <li class="nav-item">
-                <a class="nav-link text-white mr-2">Blog</a>
+                <a class="nav-link text-white mr-2" href="#">Blog</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link text-white mr-2">Contact</a>
+                <a class="nav-link text-white mr-2"href="#">Contact</a>
               </li>
           </ul>
           
@@ -72,17 +76,17 @@
 
       <!-------------------------------Card display------------------------>
     
-      <div class="d-flex justify-content-center m-5">
-      <div class="card">
+      <div class="row justify-content-center m-5">
+      <div class="card mb-5 ">
         <div class="row">
           
           <!--Image column taking 7 md columns-->
-          <div class="col-md-7 mr-5">
-            <img src="personal.webp" class="card-img m-3" alt="Image">
+          <div class="col-md-6 mr-5 p-5">
+            <img src="personal.webp" class="card-img img-fluid card-img-top ml-3" alt="Image">
           </div>
 
           <!--Text column taking 3 md columns--->
-          <div class="col-md-4 mt-5 text-center">
+          <div class="col-md-5 mt-5 text-center">
             <div class="card-body align-items-center ml-5">
               <h6 class="text-left text-secondary mb-3">HELLO EVERYBODY I AM</h5>
                 <h2 class="card-title text-left font-weight-bold mb-3">DONALD MICKENNY</h2>
@@ -91,26 +95,26 @@
             
 
             <!--Text with icon display used google font icons here-->
-            <div class="d-flex  flex-column  mr-4 mb-5"  >
+            <div class="d-flex  flex-column  mr-4 mb-3"  >
                 <span class="me-2 text-left">
-                    <i class="fa fa-calendar  purple-shade "></i> 31st December, 1992<br>
+                    <i class="bi bi-calendar  purple-shade "></i>&nbsp; 31st December, 1992<br>
                     <br>
               
                 </span>
                 <span class="me-2 text-left">
-                    <i class="fa fa-phone  purple-shade"></i> 44 (012) 6954 783<br>
+                    <i class="bi bi-telephone  purple-shade"></i>&nbsp; 44 (012) 6954 783<br>
                     <br>
                     
                 </span>
                 
                 <span class="me-2 text-left">
-                    <i class="fa fa-envelope  purple-shade"></i> businessplan@donald<br>
+                    <i class="bi bi-envelope  purple-shade"></i>&nbsp; businessplan@donald<br>
                     <br>
                     
                 </span>
            
                 <span class="me-2 text-left">
-                    <i class="fa fa-home  purple-shade"></i> Santa monica bullevard<br>
+                    <i class="bi bi-house purple-shade"></i>&nbsp; Santa monica bullevard<br>
                     <br>
                     
                 </span>
@@ -118,10 +122,10 @@
             </div>
               
             <!---Social media links used google font icons here--->
-            <div class="d-flex text-secondary">
-                <i class="fab fa-facebook fa-lg  text-left"></i>
-                <i class="fab fa-twitter fa-lg ml-2"></i>
-                <i class="fab fa-linkedin fa-lg ml-2"></i>
+            <div class="d-flex text-secondary mb-5">
+                <i class="fab fa-facebook fa-2x opacity-25 text-left"></i>
+                <i class="fab fa-twitter fa-2x opacity-25 ml-4"></i>
+                <i class="fab fa-linkedin fa-2x opacity-25 ml-4"></i>
                 
             </div>
         
@@ -136,40 +140,38 @@
       <!-------------------------------/Card display------------------------>
 
       <!------------------------------Section 2------------------------------>
-      <section>
-<div class="d-flex m-5">
+      <section class="mb-5">
+<div class="row  justify-content-center p-3">
 
       <!---------------Left aligned section telling about myself------------->
-    <div class="col-lg-6">
+    <div class="col-lg-5">
         <h2 class="mb-3">About Myself</h2>
-        <p class="mb-5 f-14">inappropriate behaviour is often laughed off as "boys will be boys," women face higher conduct standards especially in the workplace. That's why it's crucial that, as women, our behaviour on the job is beyond reproach. inappropriate behaviour is often laughed.</p>
+        <p class="mb-5 f-16 text-secondary">inappropriate behaviour is often laughed off as "boys will be boys,"<br> women face higher conduct standards especially in the workplace.<br> That's why it's crucial that, as women, our behaviour on the job is<br> beyond reproach. inappropriate behaviour is often laughed.</p>
 
-        <div class="d-flex align-items-center">
-                <div class="col-lg-4 border-box p-3 m-1">
-                    <i class="fas fa-calendar"></i>
+        <div class="row align-items-center">
+                <div class="col-lg-3 border-box  p-3 mb-3">
+                    <i class="bi bi-database gradient-font"></i>
                     <h4>$2.5M</h4>
-                    <h6 class="text-secondary">Total Donation</h6>
+                    <h6 class="text-secondary f-12">Total Donation</h6>
                 </div>
-                <div class="col-lg-4 border-box p-3 m-1">
-                    <i class="fas fa-calendar"></i>
+                <div class="col-lg-3 border-box p-3 mb-3">
+                    <i class="bi bi-files gradient-font"></i>
                     <h4>1465</h4>
-                    <h6 class="text-secondary">Total Projects</h6>
+                    <h6 class="text-secondary f-12">Total Projects</h6>
                 </div>
-                <div class="col-lg-4 border-box p-3 m-1">
-                    <i class="fas fa-calendar"></i>
+                <div class="col-lg-3 border-box p-3 mb-3">
+                    <i class="bi bi-people gradient-font"></i>
                     <h4>3965</h4>
-                    <h6 class="text-secondary">Total Volunteers</h6>
+                    <h6 class="text-secondary f-12">Total Volunteers</h6>
                 
                 </div>
         </div>
 
     </div>
 
-    <div>
-    </div>
-
     <!-------------------------Right aligned preogress bars------------>
-    <div class="col-lg-6 f-14 font-weight-bold ml-4 mt-5">
+    
+    <div class="col-lg-5 f-14 font-weight-bold  mt-5">
 
       <label labelfor="p1">After Effects 85%</label>
       <div class="progress mb-3 height-7" id="p1" > 
@@ -202,7 +204,155 @@
 
 </section>
 
-  </div> <!--container-->
+</div> <!--container-->
+
+<!----Section 3-->
+<section class="bg-light pb-lg-5">
+
+  <div class="align-content-center align-items-center pt-5 pb-5">
+    <h3 class="text-center font-weight-bold">OFFERINGS TO MY CLIENTS</h3>
+    <p class="text-secondary text-center">If you are looking at the blank cassettes on the web, you may be very confused at the difference<br> in price. You may see some as low as $.17 each.</p>
+  </div>
+  <div class="row justify-content-lg-center">
+    <div class="col-md-3 bg-white  border-less p-4 m-4">
+        <i class="bi bi-hospital text-opacity-25 text-secondary font-inc mb-4"></i>
+        <h4 class="font-weight-bold mt-3 mb-3">ARCHITECTURE</h4>
+        <p class="text-secondary">If you are looking at the blank cassettes on the web, you may be very confused at the difference in price. You may see some as low as $.17 each.</p>
+    </div>
+  <div class="col-md-3 bg-white  border-less p-4 m-4">
+      <i class="bi bi-buildings text-opacity-25 text-secondary font-inc mb-4"></i>
+      <h4 class="font-weight-bold mt-3 mb-3">INTERIOR DESIGN</h4>
+      <p class="text-secondary">If you are looking at the blank cassettes on the web, you may be very confused at the difference in price. You may see some as low as $.17 each.</p>
+  </div>
+  <div class="col-md-3 bg-white  border-less p-4 m-4">
+    <i class="bi bi-pencil-square text-opacity-25 text-secondary font-inc mb-4"></i>
+    <h4 class="font-weight-bold mt-3 mb-3">CONCEPT DESIGN</h4>
+    <p class="text-secondary">If you are looking at the blank cassettes on the web, you may be very confused at the difference in price. You may see some as low as $.17 each.</p>
+  </div>
+  </div>
+
+</section>
+
+<!----------------------------Section 4-------------------->
+
+<section class="bg-white pb-5">
+
+  <div class="align-content-center align-items-center pt-5 pb-5">
+    <h3 class="text-center font-weight-bold mt-5">OUR LATEST FEATURED PROJECTS</h3>
+    <p class="text-secondary text-center f-14">Who are in extremely love with an eco freindly system.</p>
+  </div>
+
+ <div class="row">
+    <div class="d-flex justify-content-center">
+      <a href="#" class="text-info me-5 f-12 no-underline">ALL</a>
+      <a href="#" class="text-black me-5 f-12 no-underline ">VECTOR</a>
+      <a href="#" class="text-black me-5 f-12 no-underline ">RASTER</a>
+      <a href="#" class="text-black me-5 f-12 no-underline ">UI/UX</a>
+      <a href="#" class="text-black f-12 no-underline ">PRINTING</a>
+    </div>
+ </div> 
+ <div class="row justify-content-center">
+  <div class="col-md-3 bg-white  border-less p-4 m-4">
+      <img src="project-1.webp" class="card-img m-3 img-fluid card-img-top" alt="Image">
+      <h6 class="font-weight-bold mt-3 mb-3 text-center">3D helmet design</h6>
+        <p class="text-secondary f-12 text-center">Client Project</p>
+    </div>
+  <div class="col-md-3 bg-white  border-less p-4 m-4">
+    <img src="project-2.webp" class="card-img m-3 img-fluid card-img-top" alt="Image">
+    <h6 class="font-weight-bold mt-3 mb-3 text-center">2D vineyl design</h6>
+      <p class="text-secondary f-12 text-center">Client Project</p>
+ </div>
+  <div class="col-md-3 bg-white  border-less p-4 m-4">
+    <img src="project-3.webp" class="card-img m-3 img-fluid card-img-top" alt="Image">
+    <h6 class="font-weight-bold mt-3 mb-3 text-center">Creative Poster Design</h6>
+      <p class="text-secondary f-12 text-center">Client Project</p>
+ </div>
+  
+
+  <div class="row justify-content-center p-4">
+      <div class="col-md-3 bg-white  border-less p-4 m-4">
+        <img src="project-4.jpg.webp" class="card-img m-3 img-fluid card-img-top" alt="Image">
+        <h6 class="font-weight-bold mt-3 mb-3 text-center">Embossed Logo Design</h6>
+          <p class="text-secondary f-12 text-center">Client Project</p>
+      </div>
+    <div class="col-md-3 bg-white  border-less p-4 m-4">
+      <img src="project-5.webp" class="card-img m-3 img-fluid card-img-top" alt="Image">
+      <h6 class="font-weight-bold mt-3 mb-3 text-center">3D Disposible Bottle</h6>
+        <p class="text-secondary f-12 text-center">Client Project</p>
+   </div>
+    <div class="col-md-3 bg-white  border-less p-4 m-4">
+      <img src="project-6.webp" class="card-img m-3 img-fluid card-img-top" alt="Image">
+      <h6 class="font-weight-bold mt-3 mb-3 text-center">3D Logo Design</h6>
+        <p class="text-secondary f-12 text-center">Client Project</p>
+   </div>
+    </div>
+
+ <div class="row justify-content-center">
+ <button type="button" class=" btn gradient-bg text-white  w-15 pl-4 pr-4 ">Load More Items</button>
+</div>
+</section>
+
+
+<!-----------------------------Section 5-------------------->
+<section class="bg-light pb-5">
+  <div class="align-content-center align-items-center pt-5 pb-5">
+    <h3 class="text-center font-weight-bold mt-5">TESTIMONIALS</h3>
+    <p class="text-secondary text-center f-14">If you are looking at the blank cassettes on the web, you may be very confused at the difference in <br> price. You may see some as low as $.17 each.</p>
+  </div>
+
+  <div class="row justify-content-center p-2">
+    <div class="col-md-3 bg-white  border-less p-4 m-4">
+      <p class="text-secondary font-italic mt-2">As conscious travelling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, travel across her face</p>
+        <h4 class="font-weight-bold mt-2 mb-3">FANCY SPENCER</h4>
+        <i class="bi bi-star-fill yellow"></i><i class="bi bi-star-fill yellow"></i><i class="bi bi-star-fill yellow"></i><i class="bi bi-star-fill yellow"></i><i class="bi bi-star-half yellow"></i>
+    </div>
+  <div class="col-md-3 bg-white  border-less p-4 m-4">
+    <p class="text-secondary font-italic mt-2">As conscious travelling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, travel across her face</p>
+    <h4 class="font-weight-bold mt-2 mb-3">FANCY SPENCER</h4>
+    <i class="bi bi-star-fill yellow"></i><i class="bi bi-star-fill yellow"></i><i class="bi bi-star-fill yellow"></i><i class="bi bi-star-fill yellow"></i><i class="bi bi-star-half yellow"></i>
+</div>
+  <div class="col-md-3 bg-white  border-less p-4 m-4">
+    <p class="text-secondary font-italic mt-2">As conscious travelling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, travel across her face</p>
+        <h4 class="font-weight-bold mt-2 mb-3">FANCY SPENCER</h4>
+        <i class="bi bi-star-fill yellow"></i><i class="bi bi-star-fill yellow"></i><i class="bi bi-star-fill yellow"></i><i class="bi bi-star-fill yellow"></i><i class="bi bi-star-half yellow"></i>
+    </div>
+  </div>
+
+
+</section>
+
+<!---------------------------footer------------------------>
+
+<footer class="bg-black text-white">
+  <div class="row">
+  <div class="col-lg-4 mb-4 p-5">
+    <h5 class="m-3 f-14 mt-5">About Me</h5>
+    <p class="f-12 m-3 text-secondary">Do you want to become more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
+    <p class="f-12 m-3 text-secondary">Copyright &copy; 2021. All rights reserved | This template is made with &hearts; by <a href="#" class="no-underline">Colorlib</a></p>
+
+  </div>
+  <div class="col-lg-4 mb-4 p-5">
+    <h5 class="m-3 f-14 mt-5">Newsletter</h5>
+    <p class="f-12 text-secondary m-3">Stay updated with our latest trends</p>
+    <nav class="navbar navbar-dark">
+      <form class="form-inline">
+        <div class="input-group bg-secondary">
+          <input type="text" class="form-control bg-black text-secondary" value="Enter Email Address" >
+          <div class="input-group-prepend">
+            <span class="input-group-text gradient-bg text-white" ><i class="bi bi-arrow-right"></i></span>
+          </div>
+        </div>
+      </form>
+    </nav>
+  </div>
+  <div class="col-lg-4 mb-4 p-5">
+    <h5 class="m-3 f-14 mt-5">Follow Me</h5>
+    <p class="f-12 m-3 text-secondary">Let s be social</p>
+    <i class="bi bi-facebook me-4 ml-3"></i><i class="bi bi-twitter me-4"></i><i class="bi bi-filter-circle me-4"></i>
+  </div>
+</div>
+</footer>
+
 
 </body>
 </html>

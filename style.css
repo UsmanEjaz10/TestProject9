@@ -10,7 +10,8 @@
   }
 
   .gradient-bg {
-    background: linear-gradient(to right, #3b68e4, #5ae6f0);
+    background: linear-gradient(to right, #6d40ff, #5ae6f0);
+    border:none;
   }
 
   body{
@@ -23,7 +24,7 @@
   }
 
   .purple-shade{
-    color: grey;
+    color: purple;
     
   }
 
@@ -32,7 +33,7 @@
   }
 
   .border-box{
-    border: 1px solid grey;
+    border: 1px solid lightgray;
   }
 
   .hei-5{
@@ -42,8 +43,9 @@
   .progress {
     overflow: hidden;
     background-color: grey;
-    border-radius: 40px;
-    }
+    outline: 1px solid lightgray;
+    outline-offset: 2px;  
+  }
     
     
     .progress-bar {
@@ -57,14 +59,57 @@
     background-color: #428bca;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
     box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+
     }
     
     .w-95{
       width: 95%;
     }
 
+    .f-16{
+      font-size: 16px;
+    }
+
+    .f-12{
+      font-size: 12px;
+    }
+    .bg-lightgray{
+      background-color:lavender;
+    }
+
+    .gradient-font{
+      background: linear-gradient(to right, #6d40ff, #5ae6f0); /* Set the gradient colors */
+      -webkit-background-clip: text; /* Clip the background to the icon shape */
+      -webkit-text-fill-color: transparent; /* Make the icon text transparent */
+      
+    }
+
+    .font-inc{
+      font-size: 3rem;
+    }
+
+    .border-less{
+      border: none;
+    }
+
     .f-14{
       font-size: 14px;
     }
 
-    
+    .no-underline{
+      text-decoration: none;
+    }
+
+    .small{
+      height:fit-content;
+      width: fit-content;
+      padding: 3px;
+    }
+
+    .yellow{
+      color: orange;
+    }
+
+:-ms-input-placeholder{
+  color: #fff;
+}
