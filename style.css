@@ -5,6 +5,66 @@
     top: 75px;
   }
 
-  .gradient-bg {
-    background: linear-gradient(to right, #668fff, #55c3f2);
+  .gd-bg{
+    background: linear-gradient(to bottom, #FAF9F6, #FAF9F6);
   }
+
+  .gradient-bg {
+    background: linear-gradient(to right, #3b68e4, #5ae6f0);
+  }
+
+  body{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .card-elevation {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .purple-shade{
+    color: grey;
+    
+  }
+
+  .grey{
+    color: grey;
+  }
+
+  .border-box{
+    border: 1px solid grey;
+  }
+
+  .hei-5{
+    height: 5px;
+  }
+
+  .progress {
+    overflow: hidden;
+    background-color: grey;
+    border-radius: 40px;
+    }
+    
+    
+    .progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 8px;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    background-color: #428bca;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+    }
+    
+    .w-95{
+      width: 95%;
+    }
+
+    .f-14{
+      font-size: 14px;
+    }
+
+    

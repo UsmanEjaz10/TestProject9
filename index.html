@@ -11,20 +11,31 @@
 <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
 
 
 
     <title>Test Project 9</title>
+
+
+    <style>
+      .height-7{
+        height: 7px;
+      }
+    </style>
 </head>
 <body>
     
-  <div id="container" class="gradient-bg">
-
+  
+  <div id="container" class="gd-bg">
+    <section class="gradient-bg">
     <!----------------------------------Navbar------------------------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
-        <a class="navbar-brand text-white ml-2" href="#">Meet Me</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand text-white ml-5" href="#">Meet Me</a>
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           
         </button>
@@ -57,26 +68,141 @@
         </div>
       </nav>
       <!----------------------------------/Navbar------------------------->
+
+
+      <!-------------------------------Card display------------------------>
     
-      <div class="d-flex justify-content-center mt-5 ml-5 mr-5">
+      <div class="d-flex justify-content-center m-5">
       <div class="card">
         <div class="row">
+          
+          <!--Image column taking 7 md columns-->
           <div class="col-md-7 mr-5">
             <img src="personal.webp" class="card-img m-3" alt="Image">
           </div>
-          <div class="col-md-3 mt-5 text-center ml-5">
-            <div class="card-body ml-auto mr-auto">
-              <h6 class="text-center text-secondary mb-3">HELLO EVERYBODY I AM</h5>
-                <h2 class="card-title text-center font-weight-bold mb-3">DONALD MICKENNY</h2>
-              <h6 class="text-center card-text mb-2">Junior UI/UX developer </h6>  
-            <p class="card-text text-center text-secondary mb-2">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
-            <i class="fa fa-home purple-shade text-secondary"></i> santa monica bullevard
+
+          <!--Text column taking 3 md columns--->
+          <div class="col-md-4 mt-5 text-center">
+            <div class="card-body align-items-center ml-5">
+              <h6 class="text-left text-secondary mb-3">HELLO EVERYBODY I AM</h5>
+                <h2 class="card-title text-left font-weight-bold mb-3">DONALD MICKENNY</h2>
+              <h6 class="text-left card-text mb-2">Junior UI/UX developer </h6>  
+            <p class="card-text text-left text-secondary mb-5">You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
+            
+
+            <!--Text with icon display used google font icons here-->
+            <div class="d-flex  flex-column  mr-4 mb-5"  >
+                <span class="me-2 text-left">
+                    <i class="fa fa-calendar  purple-shade "></i> 31st December, 1992<br>
+                    <br>
+              
+                </span>
+                <span class="me-2 text-left">
+                    <i class="fa fa-phone  purple-shade"></i> 44 (012) 6954 783<br>
+                    <br>
+                    
+                </span>
+                
+                <span class="me-2 text-left">
+                    <i class="fa fa-envelope  purple-shade"></i> businessplan@donald<br>
+                    <br>
+                    
+                </span>
+           
+                <span class="me-2 text-left">
+                    <i class="fa fa-home  purple-shade"></i> Santa monica bullevard<br>
+                    <br>
+                    
+                </span>
+           
             </div>
+              
+            <!---Social media links used google font icons here--->
+            <div class="d-flex text-secondary">
+                <i class="fab fa-facebook fa-lg  text-left"></i>
+                <i class="fab fa-twitter fa-lg ml-2"></i>
+                <i class="fab fa-linkedin fa-lg ml-2"></i>
+                
+            </div>
+        
+        </div>
           </div>
         </div>
       </div>
       
 </div>
+   
+</section>     
+      <!-------------------------------/Card display------------------------>
+
+      <!------------------------------Section 2------------------------------>
+      <section>
+<div class="d-flex m-5">
+
+      <!---------------Left aligned section telling about myself------------->
+    <div class="col-lg-6">
+        <h2 class="mb-3">About Myself</h2>
+        <p class="mb-5 f-14">inappropriate behaviour is often laughed off as "boys will be boys," women face higher conduct standards especially in the workplace. That's why it's crucial that, as women, our behaviour on the job is beyond reproach. inappropriate behaviour is often laughed.</p>
+
+        <div class="d-flex align-items-center">
+                <div class="col-lg-4 border-box p-3 m-1">
+                    <i class="fas fa-calendar"></i>
+                    <h4>$2.5M</h4>
+                    <h6 class="text-secondary">Total Donation</h6>
+                </div>
+                <div class="col-lg-4 border-box p-3 m-1">
+                    <i class="fas fa-calendar"></i>
+                    <h4>1465</h4>
+                    <h6 class="text-secondary">Total Projects</h6>
+                </div>
+                <div class="col-lg-4 border-box p-3 m-1">
+                    <i class="fas fa-calendar"></i>
+                    <h4>3965</h4>
+                    <h6 class="text-secondary">Total Volunteers</h6>
+                
+                </div>
+        </div>
+
+    </div>
+
+    <div>
+    </div>
+
+    <!-------------------------Right aligned preogress bars------------>
+    <div class="col-lg-6 f-14 font-weight-bold ml-4 mt-5">
+
+      <label labelfor="p1">After Effects 85%</label>
+      <div class="progress mb-3 height-7" id="p1" > 
+        <div data-percentage="0%" style="width: 85%;" class="progress-bar gradient-bg" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <label labelfor="p2">Photoshop 90%</label>
+      <div class="progress mb-3 height-7" id="p2">  
+        <div data-percentage="0%" style="width: 90%;" class="progress-bar gradient-bg" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      
+      <label labelfor="p3">Illustrator 70%</label>
+      <div class="progress mb-3 height-7" id="p3">
+        <div data-percentage="0%" style="width: 70%;" class="progress-bar gradient-bg" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <label labelfor="p4">Sublime 95%</label>
+      <div class="progress  mb-3 height-7" id="p4">
+        <div data-percentage="0%"  class="progress-bar gradient-bg w-95" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <label labelfor="p5">Sketch 75%</label>
+      <div class="progress mb-3 height-7" id="p5">
+        <div data-percentage="0%"  class="progress-bar gradient-bg w-75" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+    </div>
+</div>
+
+
+</section>
+
+  </div> <!--container-->
 
 </body>
 </html>
